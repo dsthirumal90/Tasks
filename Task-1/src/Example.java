@@ -2,7 +2,13 @@
 public class Example {
 
 	public static void main(String args[]) {
-		System.out.println("Hi Welcome");
+	
+		try {
+		System.out.println("Hiii");
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		
 	}
 	
 }
